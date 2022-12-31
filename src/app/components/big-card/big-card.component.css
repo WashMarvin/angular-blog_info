@@ -1,0 +1,23 @@
+
+.menu_main {
+  border: 1px solid blue;
+}
+
+.menu_main > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu_main > ul > li {
+  margin-left: 2rem;
+}
+
+.img_central {
+  border: 1px solid purple;
+}
+
+.img_central img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}

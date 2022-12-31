@@ -1,0 +1,60 @@
+.container__info_bar {
+  padding-top: 50px;
+}
+
+.info_bar_content {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+}
+
+.info_bar_content > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 1.2rem;
+  border-radius: 50%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(0deg, rgba(2, 0, 36, 1) 9%, rgba(115, 115, 201, 0.8015581232492998) 94%);
+}
+
+.info_persona {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  color: rgb(195, 190, 225);
+}
+
+.info_persona > h2 {
+  margin: 3px 0 5px;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: rgb(78, 78, 207);
+}
+
+.info_persona > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.info_persona > ul > li {
+  margin-right: 10px;
+  font-size: 1rem;
+  font-weight: lighter;
+  color: rgb(184, 176, 176);
+}
+
+.follow-bar {
+  margin-left: 10rem;
+  align-self: center;
+}
+
+.follow-bar button {
+  padding:  5px 20px 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(39, 38, 38);
+  color: white;
+  font-size: 1.2rem;
+}
