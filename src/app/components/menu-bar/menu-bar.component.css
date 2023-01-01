@@ -1,19 +1,16 @@
 .content__menu-bar {
-  padding: 50px 25px;
+  padding: 50px 40px;
+  height: 100vh;
 }
 
 .content__menu-bar > p {
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin-top: 50px;
-}
-
-.content__menu-bar > ul > li {
-  font-size: 2rem;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 10px;
 }
 
 .content__menu-general {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .content__menu-general > ul {
@@ -22,42 +19,33 @@
 }
 
 .content__menu-general > ul > li {
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1rem;
   margin-top: 20px;
 }
 
-.content__menu-general > a {
-  list-style: none;
+.content__menu-general ul > li > a {
+  text-decoration: none;
+  font-weight: lighter;
+  color: rgb(120, 116, 116);
 }
 
+.content__menu-general ul > li > a:hover {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(65, 63, 63);
+}
 
 .content__menu-general > input {
   border-color: rgb(196, 192, 192);
   border: none;
-  outline-width: 0.5px;
-  outline-color: rgb(196, 192, 192);
+  outline-width: 0.1px;
+  outline-color: rgb(250, 249, 249);
   outline-style: solid;
   border-radius: 20px;
-  padding: 8px;
+  padding: 8px 0 8px 20px;
 }
 
 .content__menu-publics > ul {
   margin-top: 15px;
   margin-left: 20px;
 }
-/*
-
-.content__menu-general > ul > li {
-  padding: 20px 20px 5px;
-
-}
-
-.content__menu-publics {
-  padding: 20px 20px 5px;
-  border: 1px solid yellow;
-  margin-bottom: 20px;
-}
-
-
-*/

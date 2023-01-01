@@ -1,20 +1,56 @@
-
-.menu_main {
-  border: 1px solid blue;
+.content__menu-main {
+    padding-right: 40px;
+    margin: 20px 0;
 }
 
-.menu_main > ul {
-  list-style: none;
+.menu-main {
+    border-bottom: 1px solid rgb(240, 235, 235);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin: 40px 0 20px;
+}
+
+.menu-main > ul {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.menu_main > ul > li {
-  margin-left: 2rem;
+.menu-main > ul > li > a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(182, 180, 180);
 }
 
-.img_central {
-  border: 1px solid purple;
+.menu-main > ul > li > a:hover {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  font-weight: 500;
+  color: gray;
+}
+
+.text-center > h1 {
+  width: 500px;
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.3rem;
+  text-shadow: 1px 1px 10px black;
+  padding-top: 70px;
+  padding-left: 50px;
+}
+
+.text-center {
+  border-radius: 10px 10px 0 0;
+  height: 400px;
+  background-image: url("https://img.freepik.com/free-photo/astronauts-leaving-cabin-science-fiction-illustrations-digital-painting_456031-70.jpg?w=996&t=st=1672511013~exp=1672511613~hmac=d8850787c70a85a902ef4ac72af0c67f9af283a5748f89e268ad57822f4fe944");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
 }
 
 .img_central img {
