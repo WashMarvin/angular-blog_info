@@ -6,7 +6,6 @@
 }
 
 .card {
-  width: 49%;
   border-radius: 15px 15px 0 0;
 }
 
@@ -16,12 +15,16 @@
   width: 100%;
 }
 
-.card-title {
+.card-title > h3 {
+  margin-top: 15px;
+}
+
+.card-title > h3 > a {
   color: rgb(58, 55, 55);
 }
 
-.card-title > h3 {
-  margin-top: 15px;
+.card-title > h3 > a:hover {
+  color: rgb(27, 26, 26);
 }
 
 .card-description {
@@ -34,7 +37,7 @@
   color: white;
   font-size: 1.2rem;
   font-weight: 500;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding: 8px 15px;
 }
 

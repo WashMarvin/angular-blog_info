@@ -1,6 +1,6 @@
 .content__menu-main {
     padding-right: 40px;
-    margin: 20px 0;
+    margin: 20px 0 0 0;
 }
 
 .menu-main {
@@ -8,7 +8,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border: none;
-    margin: 40px 0 20px;
+    margin: 10px 0 20px;
 }
 
 .menu-main > ul {
@@ -32,28 +32,32 @@
   color: gray;
 }
 
-.text-center > h1 {
-  width: 500px;
-  color: white;
-  font-size: 3rem;
-  font-weight: 600;
-  line-height: 3.3rem;
-  text-shadow: 1px 1px 10px black;
-  padding-top: 70px;
-  padding-left: 50px;
-}
-
 .text-center {
+  position: relative;
   border-radius: 10px 10px 0 0;
-  height: 400px;
+  height: 300px;
   background-image: url("https://img.freepik.com/free-photo/astronauts-leaving-cabin-science-fiction-illustrations-digital-painting_456031-70.jpg?w=996&t=st=1672511013~exp=1672511613~hmac=d8850787c70a85a902ef4ac72af0c67f9af283a5748f89e268ad57822f4fe944");
   background-repeat: no-repeat;
-
   background-size: cover;
-
 }
 
-.img_central img {
-  border-radius: 10px 10px 0 0;
-  width: 100%;
+.text-center > h1 {
+  position: absolute;
+  width: 420px;
+  line-height: 40px;
+  font-size: 2rem;
+  margin: 50px 0 0 40px;
+}
+
+.text-center > h1 > a {
+  width: 500px;
+  color: white;
+  font-weight: 600;
+  text-shadow: 1px 1px 10px black;
+  cursor: pointer;
+}
+
+.text-center > h1 > a:hover {
+  color: rgb(247, 247, 137);
+  text-shadow: 2px 2px 3px black;
 }

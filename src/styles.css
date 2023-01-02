@@ -10,3 +10,7 @@
 * p {
   color: rgb(120, 116, 116);
  }
+
+ * a {
+  text-decoration: none;
+ }

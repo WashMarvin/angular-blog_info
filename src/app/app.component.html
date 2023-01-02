@@ -5,7 +5,16 @@
   <div class="screen-main">
       <app-info-bar></app-info-bar>
       <app-big-card></app-big-card>
-      <app-small-card></app-small-card>
+      <div class="screen-second">
+          <app-small-card photoCover="http://localhost:4200/assets/img_card-1.png"
+            cardTitle="As transformações das cidades no início do século 21"
+            cardDescription="Aqui deve entrar um texto incial da matéria que será visualizada. O tema do texto é a foto em destaque. O texto deve ser justificado dentro para que seja melhor distribuído no espaço reservado."
+          ></app-small-card>
+            <app-small-card photoCover="http://localhost:4200/assets/img_card-1.png"
+              cardTitle="As transformações das cidades no início do século 21"
+              cardDescription="Aqui deve entrar um texto incial da matéria que será visualizada. O tema do texto é a foto em destaque. O texto deve ser justificado dentro para que seja melhor distribuído no espaço reservado."
+          ></app-small-card>
+      </div>
   </div>
 </div>
 <router-outlet></router-outlet>

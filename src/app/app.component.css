@@ -10,5 +10,14 @@
 
 .screen-menu-bar {
   width: 250px;
+}
 
+.screen-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.screen-second {
+  display: flex;
+  flex-direction: row;
 }
